@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: rgb(207, 203, 219); ">
+    <main>
+        <a style="text-decoration: none; color: rgb(20, 19, 19); width: fit-content; height: fit-content;" href="">
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Подписки</h1>
+        </a>
+        <form action="#" method="get" class="sas" style="height: fit-content;">
+            <input type="text" placeholder="Имя" required id="inpName">
+            <div class="idea" id="idea1">
+                <p>Имя должно содержать буквы, без пробелов</p>
+            </div>
+            <input type="text" placeholder="Фамилия" required id="inpFio">
+            <div class="idea" id="idea2">
+                <p>Фамилия должно содержать буквы, без пробелов</p>
+            </div>
+            <input type="text" placeholder="Отчество" required id="inpOthc">
+            <div class="idea " id="idea3">
+                <p>Отчество должно содержать буквы, без пробелов</p>
+            </div>
+            <input type="email" placeholder="Почта" required id="inpMail">
+            <div class="idea " id="idea4">
+                <p>Почта должна содержать знак @ </p>
+            </div>
+            <input type="tel:+7" placeholder="Номер телефона" required id="inpTel">
+            <div class="idea " id="idea5">
+                <p>Номер телефона должен начинатся с +7 или 8, и иметь 12 или 11 символов соответственно</p>
+            </div>
+            <input type="submit" value="Отправить" class="accc" disabled id="inpBut">
+            <div id="sumbit" style="background-color: #FF0000; color: white; height: 50px; display: flex; align-items: center;">
+                <p>Какое-то из полей заполненно неправильно</p>
+            </div>
+        </form>
+
+    </main>
+
+    <script src="polya.js"></script>
+</body>
+
+</html>

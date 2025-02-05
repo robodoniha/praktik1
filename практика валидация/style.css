@@ -1,0 +1,72 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sas {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 600px;
+}
+
+.sas input {
+    height: 30px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+
+.sas input:focus {
+    height: 30px;
+    width: 300px;
+    border: 2px solid rgb(71, 2, 88);
+    border-radius: 10px;
+    outline: none !important;
+}
+
+a :hover {
+    color: crimson;
+    font-size: 220%;
+}
+
+
+.accc {
+    border: none;
+    outline: none;
+    box-sizing: content-box;
+    background-color: rgb(255, 225, 187);
+}
+
+select {
+    height: 35px;
+    width: 305px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.selectl:focus {
+ 
+    border: 2px solid rgb(71, 2, 88);
+    border-radius: 10px;
+    outline: none !important;
+}
+
+
+.idea{
+    background-color: wheat;
+    height: 50px;
+    display: none;
+    align-items: center;
+}
