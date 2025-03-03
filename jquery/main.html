@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery практика</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="#korz">
+            <div class="kor">
+                <img src="icon.png" alt="">
+                <h1>Корзина</h1>
+            </div>
+        </a>
+    </header>
+
+    <main>
+        <div class="hero">
+            <div class="tovars">
+                <div class="tovar">
+                    <img src="tovar/gold.png" alt="">
+                    <h1>Блок золота</h1>
+                    <p>Чертовски тяжелый и дорогой блок</p>
+                    <button class="btnAdd" data-product="gold" data-number="1">Добавить</button>
+                </div>
+                <div class="tovar">
+                    <img src="tovar/ceno.png" alt="">
+                    <h1>Блок сена</h1>
+                    <p>Просто огромный кусок сена</p>
+                    <button class="btnAdd" data-product="ceno" data-number="2">Добавить</button>
+                </div>
+                <div class="tovar">
+                    <img src="tovar/bedrock.png" alt="">
+                    <h1>Бедрок</h1>
+                    <p>Неразрушаемый блок</p>
+                    <button class="btnAdd" data-product="bedrock" data-number="3">Добавить</button>
+                </div>
+                <div class="tovar">
+                    <img src="tovar/brick.png" alt="">
+                    <h1>Блок кирпича</h1>
+                    <p>Из него получится хороший дом</p>
+                    <button class="btnAdd" data-product="brick" data-number="4">Добавить</button>
+                </div>
+                <div class="tovar">
+                    <img src="tovar/ametist.png" alt="">
+                    <h1>Блок аметиста</h1>
+                    <p>Красивый блок, с красивыми звуками</p>
+                    <button class="btnAdd" data-product="ametist" data-number="5">Добавить</button>
+                </div>
+                <div class="tovar">
+                    <img src="tovar/diamond.png" alt="">
+                    <h1>Блок алмаза</h1>
+                    <p>Очень тяжелый и очень полезный</p>
+                    <button class="btnAdd" data-product="diamond" data-number="6">Добавить</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="hero1" id="korz">
+            <h2>Корзина</h2>
+            <div class="products">
+            </div>
+            <p class="totallll">Общее количество товаров: <span id="totalKorz">0</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

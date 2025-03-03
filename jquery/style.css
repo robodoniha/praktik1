@@ -1,0 +1,181 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 80px;
+    background-color: rgb(125, 100, 30);
+    padding: 20px 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.kor {
+    display: flex;
+    width: fit-content;
+    gap: 15px;
+    height: 60px;
+    align-items: center;
+
+    background-color: rgb(153, 255, 150);
+    padding: 10px 25px;
+    border-radius: 8px;
+
+    transition: background-color 0.2s;
+}
+
+.kor:hover {
+    background-color: rgb(37, 255, 30);
+}
+
+.kor img {
+    height: 60px;
+}
+
+.kor h1 {
+    font-size: 28px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    padding: 60px 0px;
+}
+
+.hero {
+    width: 80%;
+}
+
+.tovars {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tovar {
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 10px 5px;
+    border-radius: 8px;
+    width: 70%;
+    height: fit-content;
+}
+
+.tovar h1{
+    width: 90%;
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.tovar p{
+    width: 90%;
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.tovar button{
+    margin-top: 8px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    width: 40%;
+    padding: 2% 0;
+    border-radius: 8px;
+
+    transition: width 0.3s, margin-left 0.3s;
+}
+
+.tovar button:hover{
+    width: 30%;
+    margin-left: 10%;
+}
+
+.tovar button:active{
+    width: 25%;
+    margin-left: 15%;
+}
+
+.tovar img{
+    width: 100%;
+}
+
+footer{
+    padding-top: 45px;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+h2{
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.totallll{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product img{
+    height: 90px;
+    margin: 0;
+}
+
+.prodText{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+}
+
+.prodText h1{
+    margin: 0;
+    text-align: right;
+    font-size: 24px;
+}
+
+.prodText p{
+    margin: 0;  
+    text-align: right;
+    font-size: 16px;
+}
+
+.prodText button{
+    margin: 0;
+    padding: 2%;
+    border-radius: 8px;
+
+    transition: opacity 0.3s;
+}
+
+.prodText button:hover{
+    opacity: 0.6;
+}
+
+.prodText button:active{
+    opacity: 0.3;
+}
+
+.hero1{
+    width: 40%;
+}
